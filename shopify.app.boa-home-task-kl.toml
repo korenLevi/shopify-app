@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "0ad0dac6499c97fe007fcdf4c4eed838"
+name = "boa-home-task-KL"
+handle = "boa-home-task-kl"
+application_url = "https://protect-spine-chubby-fibre.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "home-assignment-59.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://protect-spine-chubby-fibre.trycloudflare.com/auth/callback",
+  "https://protect-spine-chubby-fibre.trycloudflare.com/auth/shopify/callback",
+  "https://protect-spine-chubby-fibre.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false

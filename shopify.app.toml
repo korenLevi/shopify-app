@@ -1,3 +1,27 @@
-# This file stores configurations for your Shopify app.
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
+client_id = "22db56d2565c2782a00c0df967706039"
+name = "boa-ideas-home-assignment-KL"
+application_url = "https://kelkoo-platform-poker-doll.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "home-assignment-59.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "read_customers"
+
+[auth]
+redirect_urls = [
+  "https://kelkoo-platform-poker-doll.trycloudflare.com/auth/callback",
+  "https://kelkoo-platform-poker-doll.trycloudflare.com/auth/shopify/callback",
+  "https://kelkoo-platform-poker-doll.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false

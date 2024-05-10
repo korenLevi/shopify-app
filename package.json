@@ -13,11 +13,15 @@
   },
   "dependencies": {
     "@shopify/app": "^3.50.0",
-    "@shopify/cli": "^3.50.0"
+    "@shopify/cli": "^3.60.0",
+    "@shopify/ui-extensions": "2024.4.1",
+    "@shopify/ui-extensions-react": "2024.4.1",
+    "react": "^18.3.1"
   },
   "author": "BOA Ideas",
   "devDependencies": {
     "eslint": "^8.52.0",
-    "eslint-plugin-react": "^7.33.2"
+    "eslint-plugin-react": "^7.33.2",
+    "prisma": "^5.13.0"
   }
 }
